@@ -1,0 +1,55 @@
+author:
+  email: null
+  name: An Author
+  twitter: null
+  url: null
+baseurl: /all-emo-with-tags-2020-03-02-1
+collections:
+  annotations:
+    output: true
+    permalink: /annotations/:path/
+  volume_pages:
+    output: true
+    permalink: /pages/:path/
+defaults:
+- scope:
+    path: ''
+    type: volume_pages
+  values:
+    deep_zoom: true
+    extra_js:
+    - volume-page.js
+    - hammer.min.js
+    - deepzoom.js
+    - openseadragon.min.js
+    layout: volume_page
+    short_label: p.
+- scope:
+    path: ''
+    type: annotations
+  values:
+    layout: annotation
+description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
+gems:
+- jekyll-sitemap
+homepage_image: https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/full/0/default.jpg
+image_size:
+  page:
+    height: 13088
+    width: 9061
+permalink: pretty
+publication_info:
+  date: '2020'
+  editors: []
+  title: All'Emo., e Rmo. Sigr. Pne. Colmo., Il Sig.r Cardinale Alessandro Albani
+    Emo., e Rmo. pri
+show_annotation_author: true
+source_info:
+  title: All'Emo., e Rmo. Sigr. Pne. Colmo., Il Sig.r Cardinale Alessandro Albani
+    Emo., e Rmo. pri
+  via_readux: true
+tagline: an annotated digital edition
+title: All'Emo., e Rmo. Sigr. Pne. Colmo., Il Sig.r Cardinale Alessandro Albani Emo.,
+  e Rmo. pri
+url: https://sarepal.github.io
+version: 0.7

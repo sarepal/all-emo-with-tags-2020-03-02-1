@@ -1,0 +1,77 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/readux:thgg7/list/readux:thgg7_00000001.jp2",
+    "@type": "sc:AnnotationList",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "resources": [
+        {
+            "@id": "dc3ef1f1-f5c1-4519-a43b-9e6edf817892",
+            "@type": "oa:Annotation",
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>shape note polygon</p>",
+                "language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=5728,2206,3754,3291"
+                        },
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7395.11771,2206.23377c-105.65924,0 -218.28419,40.6481 -315.39403,76.71747c-48.96948,18.18866 -98.45591,35.77807 -144.91077,59.66914c-53.30315,27.41305 -101.66077,63.5642 -153.43494,93.76579c-50.53776,29.48036 -105.74056,51.35352 -153.43494,85.24163c-60.79864,43.19903 -113.75805,96.48681 -170.48326,144.91077c-93.50496,79.82131 -242.84108,200.49401 -323.9182,298.34571c-39.21807,47.33216 -67.84852,102.5215 -102.28996,153.43494c-73.8779,109.21081 -118.24567,163.34809 -179.00742,281.29738c-71.11743,138.05148 -112.57823,279.25101 -119.33828,434.73232c-6.61434,152.12979 -15.39991,240.07255 34.09665,375.06318c38.91641,106.13566 77.06225,146.83674 153.43494,230.1524c108.67571,118.55532 239.0953,218.42599 366.53901,315.39403c308.01702,234.36078 608.98925,455.87026 988.80292,562.59476c212.45122,59.69704 431.11252,94.79314 647.83639,136.38661c64.72428,12.42183 130.24329,22.07183 196.05575,25.57249c201.53365,10.71987 403.40552,18.89979 605.21558,17.04833c247.78351,-2.27324 345.00969,-7.51501 554.0706,-119.33828c50.10984,-26.80294 101.07414,-57.76554 136.38661,-102.28996c78.22869,-98.63618 71.2098,-244.91642 59.66914,-358.01485c-15.51378,-152.03504 -62.58577,-255.05363 -102.28996,-400.63566c-39.37546,-144.37669 -46.53927,-243.35131 -110.81412,-383.58734c-93.96341,-205.01109 -230.42122,-349.7595 -392.1115,-511.44979c-116.75973,-116.75973 -235.26614,-186.4892 -366.53901,-281.29738c-46.06908,-33.27211 -89.36302,-70.38109 -136.38661,-102.28996c-32.66363,-22.16461 -68.3059,-39.58765 -102.28996,-59.66914c-28.52765,-16.85725 -56.82775,-34.09665 -85.24163,-51.14498c-63.79576,-38.27746 -111.99521,-68.78385 -179.00742,-102.28996c-25.03003,-12.51501 -51.68744,-21.58164 -76.71747,-34.09665c-20.48954,-10.24477 -38.9103,-24.40919 -59.66914,-34.09665c-21.99925,-10.26632 -45.3781,-17.27605 -68.1933,-25.57249c-8.44429,-3.07065 -16.8012,-6.57499 -25.57249,-8.52416c-16.87192,-3.74931 -34.5904,-3.55779 -51.14498,-8.52416c-12.17117,-3.65135 -23.32108,-10.31359 -34.09665,-17.04833c-12.04746,-7.52966 -21.38958,-19.21895 -34.09665,-25.57249c-16.07332,-8.03666 -35.07166,-9.01167 -51.14498,-17.04833c-35.66205,-17.83102 -59.29378,-39.36236 -85.24163,-68.1933c-14.84563,-16.49514 -26.92874,-35.4529 -42.62082,-51.14498c-15.69208,-15.69208 -36.21706,-26.2001 -51.14498,-42.62082c-13.78275,-15.16103 -21.29694,-35.14534 -34.09665,-51.14498c-10.04092,-12.55115 -21.40914,-24.22859 -34.09665,-34.09665c-13.07798,-10.17176 -29.13888,-15.94254 -42.62082,-25.57249c-6.5397,-4.67121 -11.00012,-11.75615 -17.04833,-17.04833c-16.70114,-14.6135 -34.55851,-27.87729 -51.14498,-42.62082c-9.01001,-8.0089 -15.76294,-18.56567 -25.57249,-25.57249c-10.34017,-7.38584 -23.32108,-10.31359 -34.09665,-17.04833c-12.04746,-7.52966 -20.90584,-20.29616 -34.09665,-25.57249c-16.04731,-6.41893 -34.3041,-4.63781 -51.14498,-8.52416c-20.15588,-4.65136 -40.04504,-10.50696 -59.66914,-17.04833c-23.03102,-7.67701 -44.64132,-19.68449 -68.1933,-25.57249c-22.22402,-5.55601 -45.63388,-4.54309 -68.1933,-8.52416c-25.79769,-4.55253 -50.82579,-13.06499 -76.71747,-17.04833c-19.65843,-3.02437 -39.77943,0 -59.66914,0\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;deleteIcon&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_da752197-aa62-4fc6-8bd4-b288c4637aa1\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    },
+                    "value": "xywh=5728,2206,3754,3291"
+                }
+            },
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "motivation": "oa:commenting"
+        },
+        {
+            "@id": "605e6852-d626-45d0-af0a-2890954b2a3b",
+            "@type": "oa:Annotation",
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>square note</p>",
+                "language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1505,914,3309,1894"
+                        },
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1505.01876,914.25485h1654.68764v0h1654.68764v947.1821v947.1821h-1654.68764h-1654.68764v-947.1821z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_7ae9cc28-4460-425f-9d1f-04304bba6c62\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    },
+                    "value": "xywh=1505,914,3309,1894"
+                }
+            },
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "motivation": "oa:commenting"
+        }
+    ]
+}
